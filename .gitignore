@@ -13,5 +13,4 @@ build/build.out
 **/.settings
 target
 atlassian*
-geomesa-*.*.*-*
 **/src/main/resources/git.properties
