@@ -11,6 +11,7 @@
         <module>gm-data-gtd</module>
         <module>gm-data-gdelt</module>
         <module>gm-data-geolife</module>
+        <module>gm-data-nyctaxi</module>
         <module>gm-data-osm-gpx</module>
         <module>gm-data-tdrive</module>
         <module>gm-data-twitter</module>
@@ -66,6 +67,11 @@
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>gm-data-gtd</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>gm-data-nyctaxi</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

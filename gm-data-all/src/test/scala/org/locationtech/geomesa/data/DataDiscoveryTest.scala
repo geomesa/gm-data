@@ -9,7 +9,7 @@ import org.specs2.runner.JUnitRunner
 @RunWith(classOf[JUnitRunner])
 class DataDiscoveryTest extends Specification {
 
-  val names = Seq("gdelt", "gtd", "tdrive", "geolife", "osm-gpx", "twitter")
+  val names = Seq("gdelt", "gtd", "tdrive", "geolife", "nyctaxi", "nyctaxi-single", "osm-gpx", "twitter")
   "SimpleFeatureTypes" should {
     "be discoverable" >> {
       SimpleFeatureTypeLoader.listTypeNames must containAllOf(names)
