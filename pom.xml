@@ -22,6 +22,13 @@
         <scala.version>2.11.7</scala.version>
     </properties>
 
+    <scm>
+        <connection>scm:git:git@github.com:geomesa/gm-data.git</connection>
+        <developerConnection>scm:git:git@github.com:geomesa/gm-data.git</developerConnection>
+        <url>https://github.com/geomesa/gm-data</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
