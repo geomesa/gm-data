@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.locationtech.geomesa.data</groupId>
     <artifactId>gm-data</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.2.0</version>
     <packaging>pom</packaging>
     <name>gm-data</name>
 
@@ -26,7 +25,7 @@
         <connection>scm:git:git@github.com:geomesa/gm-data.git</connection>
         <developerConnection>scm:git:git@github.com:geomesa/gm-data.git</developerConnection>
         <url>https://github.com/geomesa/gm-data</url>
-        <tag>HEAD</tag>
+        <tag>gm-data-1.2.0</tag>
     </scm>
 
     <dependencyManagement>
@@ -59,7 +58,7 @@
             <dependency>
                 <groupId>org.locationtech.geomesa</groupId>
                 <artifactId>geomesa-convert-all</artifactId>
-                <version>${project.version}</version>
+                <version>1.2.0</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
