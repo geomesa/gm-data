@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.locationtech.geomesa.data</groupId>
     <artifactId>gm-data</artifactId>
-    <version>1.2.0</version>
+    <version>1.2.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>gm-data</name>
 
@@ -25,7 +25,7 @@
         <connection>scm:git:git@github.com:geomesa/gm-data.git</connection>
         <developerConnection>scm:git:git@github.com:geomesa/gm-data.git</developerConnection>
         <url>https://github.com/geomesa/gm-data</url>
-        <tag>gm-data-1.2.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencyManagement>
