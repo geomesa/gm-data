@@ -21,12 +21,12 @@ Build GeoMesa convert module (geomesa-convert-all). Then build gm-data:
 | [New York City Taxi](https://publish.illinois.edu/dbwork/open-data/) | `nyctaxi`<sup>1</sup> <br> `nyctaxi-single` | `nyctaxi` <br> `nyctaxi-drop` <br> `nyctaxi-single` |
 | [Open Street Map GPX](http://planet.osm.org/gps/) | `osm` | `osm` |
 | [T-Drive](http://research.microsoft.com/apps/pubs/?id=152883) | | `tdrive` | `tdrive` |
-| [Twitter](https://dev.twitter.com/overview/api/tweets) <sup>2</sup> | `twitter` | `twtitter` <br> `twitter-bbox` <sup>3</sup> |
+| [Twitter](https://dev.twitter.com/overview/api/tweets) <sup>2</sup> | `twitter` | `twtitter` <br> `twitter-place-centroid` <sup>3</sup> |
 
 
 1. NYC Taxi data includes two points: the pickup and dropoff. The `nyctaxi` feature type contains one point and an indicator of whether it is the pickup or dropoff. The `nyctaxi-single` feature has both geometries.
 1. Converter expects one tweet per line in the file.
-1. Converter `twitter` applies precise point geometry if available; `twitter-bbox` produces a polygon from the bounding box of the tweet's place attribute.
+1. Converter `twitter` applies precise point geometry if available; `twitter-place-centroid` extracts the centroid from the bounding box of the tweet's place attribute.
 
 ## GeoMesa Tools installation
 
