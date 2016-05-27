@@ -14,6 +14,7 @@
         <module>gm-data-osm-gpx</module>
         <module>gm-data-tdrive</module>
         <module>gm-data-twitter</module>
+        <module>gm-data-geonames</module>
         <module>gm-data-all</module>
     </modules>
 
@@ -93,6 +94,11 @@
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>gm-data-twitter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>gm-data-geonames</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
