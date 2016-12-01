@@ -1,3 +1,9 @@
+# gm-data is deprecated
+
+## See [geomesa-tools](https://github.com/locationtech/geomesa/tree/master/geomesa-tools/conf/sfts)
+
+... for community maintained readmes, simple feature type configs, and converter configs
+
 # GeoMesa Data
 
 GeoMesa Data (gm-data) provides several built in SimpleFeatureType (SFT) and Converter definitions to help ingest common data formats from across the web. Each module contains a ``reference.conf`` file that defines a named SFT and converter that can be referenced via the GeoMesa tools or GeoMesa Nifi processor when properly installed on the classpath.
